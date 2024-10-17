@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetaine</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="pagrindinis">
+            <nav>
+                <img src="./img/logo.png" alt="" class="logo">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="btn btn-secondary">707-707-7777</button></li>
+                </ul>
+                <img src="./img/lektuvas.jpg" alt="" class="menu-btn"/>
+            </nav>
+
+            <div class="main-content">
+                <h1 class="intro-heading">FLY HIGH </h1>
+                <h1 class="main-heading">above the sky </h1>
+                <p>
+                    Comfortable, secure Your way.
+                </p>
+                <button class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="services">
+        <div class="pagrindinis">
+            <div class="section-title">
+                <h1>Our services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/2.jpg" alt="">
+                    <h3>Where to go</h3>
+                    <p>
+                        Find a destination which will meet your expectations.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="./img/3.jpg" alt="">
+                    <h3>Route Map</h3>
+                    <p>
+                        Check out our Flight Route Map and explore all domestic and international destinations.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="./img/madeira.jpg" alt="">
+                    <h3>With LOT to Madeira!</h3>
+                    <p>
+                        Enjoy the sunshine, golden beaches, and unique attractions in an exotic climate!.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="pagrindinis">
+            <img src="./img/quote.png" alt="">
+            <h1>
+                "Original and with an innate understanding of their customer's needs, the team at "Flights to the Moon" are always
+                a pleasure to work with"
+            </h1>
+            <div class="profile">
+                <h4>Evelina Dailidko</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="pagrindinis">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>
+                    Our Team
+                </h1>
+                <p>
+                    Can fly You even to the moon.
+                </p>
+                <button class="btn btn-primary">Let's Talk Now</button>
+            </div>
+
+            <div class="about-image">
+                <img src="./img/priespaskutinis.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="questions">
+        <div class="pagrindinis">
+            <h1>QUESTIONS?</h1>
+            <p>
+                Whether you're curious about feature, a free trial, or even press, we're here to answer any questions.
+            </p>
+            <button class="btn btn-primary">Let's Talk Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="pagrindinis">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <img src="./img/logo-colored.png" alt="" class="footerLogo" />
+            <p>
+                "Flights to the Moon" by Evelina Dailidko
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+        const navBtn = document.querySelector(".menu-btn");
+        const navList = document.querySelector(".nav-list");
+
+        navBtn.addEventListener("click", function () {
+            navList.classList.toggle("active");
+        });
+    </script>
+
+</body>
+
+</html>
